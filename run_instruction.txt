@@ -1,0 +1,14 @@
+Uruchomienie serwera:
+w folderze server/:
+jesli nie ma folderu node_modules: npm install
+npm start
+
+slucha na porcie 3001
+
+Uruchomienie klienta:
+w folderze client/:
+jesli nie ma folderu node_modules: npm install
+npm run build
+npm run start
+
+bedzie na http://localhost:3000

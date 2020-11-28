@@ -1,0 +1,26 @@
+{
+  "name": "node-cors-client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "prettier": "prettier --write {components,pages}/**/*.js next.config.js"
+  },
+  "engines": {
+    "node": "^10.15",
+    "npm": "^2"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^8.1.0",
+    "next-env": "^1.1.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
